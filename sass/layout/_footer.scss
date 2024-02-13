@@ -1,0 +1,36 @@
+.footer {
+    background: #6B6B6B;
+    padding: 40px 0;
+    
+    &-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .foo-nav {
+        &__list {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+        }
+        &__item {
+            position: relative;
+        }
+        &__item::before{
+            content: "";
+            position: absolute;
+            background: #fff;
+            width: 0%;
+            height: 4px;
+            top: 30px;
+            transition: all 0.4s linear;
+        }
+        &__item:hover::before{
+            width: 100%;
+        }
+        &__link {
+            font-size: 13px;
+            line-height: 154%;
+            color: #fff;
+        }
+    }
+}

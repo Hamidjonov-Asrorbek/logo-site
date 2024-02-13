@@ -1,0 +1,15 @@
+.companys {
+    background: #D3D3D3;
+    padding: 40px 0;
+    &-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .company{
+        transform: scale(1);
+        transition: all 0.3s linear;
+    }
+    .company:hover{
+        transform: scale(1.1);
+    }
+}

@@ -1,0 +1,42 @@
+.clas-parents {
+    background: #fff;
+    .clas-parents-container {
+        padding: 50px 0;
+    }
+    .top {
+        display: flex;
+    }
+    .left {
+        width: 100%;
+        max-width: 50%;
+        padding: 68px;
+        .left__title {
+            font-size: 32px;
+            line-height: 112%;
+            color: #000;
+            margin-bottom: 14px;
+        }
+        .left__desc {
+            font-size: 15px;
+            line-height: 160%;
+            color: #000;
+        }
+    }
+    .right {
+        width: 100%;
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        &__desc{
+            font-size: 12px;
+            text-align: center;
+            color: #777;
+            line-height: 175%;
+        }
+    }
+    .bottom{
+        display: flex;
+    }
+}
