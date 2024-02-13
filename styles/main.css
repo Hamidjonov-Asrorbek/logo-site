@@ -665,4 +665,10 @@ a {
   width: 100%;
   max-width: -moz-fit-content;
   max-width: fit-content;
+  transition: all 0.4s linear;
+}
+
+.hero__btn:hover {
+  background: #333;
+  color: #FFF;
 }/*# sourceMappingURL=main.css.map */
